@@ -1,0 +1,17 @@
+li a {
+    color: green;
+}
+
+.logged-in {
+    background: gainsboro url("/static/img/CCTVMobile.jpg") no-repeat center 80px;
+}
+
+.logged-out {
+    background: gainsboro url("http://www.imgbase.info/images/safe-wallpapers/miscellaneous/1_other_wallpapers/21930_1_other_wallpapers_camera__what_are_you_looking_at.jpg") no-repeat center 30px;
+    background-size: 90%;
+}
+
+}
+.pull-right {
+    float:right;
+}
