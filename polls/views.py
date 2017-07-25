@@ -20,12 +20,8 @@ class IndexView(generic.ListView):
             else:
                 client = access.api_client
 
-                context['info'] = client.get_profile_info(raw_token=access.access_token)
+            context['info'] = client.get_profile_info(raw_token=access.access_token)
         return context
-    #
-    # def get(self, request, *args, **kwargs):
-    #     context = self.get_context_data(request)
-    #     return render(request, self.template_name, context)
 
     def get_queryset(self):
         """

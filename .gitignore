@@ -1,2 +1,3 @@
 *.pyc
 migrations
+auth_providers.json

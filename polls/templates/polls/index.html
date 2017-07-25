@@ -8,7 +8,7 @@
     {% if request.user.is_authenticated %}
     <a href="{% url 'logout' %}" class="pull-right">Logout</a>
     {% if info.firstname or info.lastname %}
-    {{ info.firstname }} {{ info.last_name }}
+    {{ info.firstname }} {{ info.lastname }}
     {% else %}
     {{ info.id }}
     {% endif %}
